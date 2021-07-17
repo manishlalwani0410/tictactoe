@@ -46,7 +46,6 @@ def CheckWin():
         Game=Draw    
     else:            
         Game=Running    
-    
 print("Tic-Tac-Toe Game Designed By Manish Lalwani")    
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
@@ -67,7 +66,6 @@ while(Game == Running):
         board[choice] = Mark    
         player+=1    
         CheckWin()    
-    
 os.system('cls')    
 DrawBoard()    
 if(Game==Draw):    
